@@ -51,6 +51,7 @@ for [Mandelbrot set][1].
 
 ## Support Languages
 
+* BASIC: https://en.wikipedia.org/wiki/BASIC
 * Java: https://www.java.com
 
 ## License
