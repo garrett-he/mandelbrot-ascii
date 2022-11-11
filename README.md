@@ -51,6 +51,8 @@ for [Mandelbrot set][1].
 
 ## Support Languages
 
+* Java: https://www.java.com
+
 ## License
 
 Copyright (C) 2022 Garrett HE <garrett.he@hotmail.com>
