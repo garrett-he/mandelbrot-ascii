@@ -39,6 +39,10 @@ cxx: src/mandelbrot.cxx ## Run implementation in C++
 	g++ -o mandelbrot_cxx.out $<
 	time ./mandelbrot_cxx.out
 
+.PHONY: lua
+lua: src/mandelbrot.lua ## Run implementation in Lua
+	time lua $<
+
 .PHONY: pascal
 pascal: src/mandelbrot.pas ## Run implementation in Pascal (FreePascal)
 	fpc -FE`pwd` $<
