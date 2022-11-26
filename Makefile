@@ -28,6 +28,12 @@ js: src/mandelbrot.js ## Run implementation in JavaScript (Node.js)
 c: src/mandelbrot.c ## Run implementation in C
 	cc -o mandelbrot_c.out $<
 	time ./mandelbrot_c.out
+
+.PHONY: cs
+cs: src/Mandelbrot.cs ## Run implementation in C# (Mono)
+	mcs -out:mandelbrot_cs.out $<
+	time mono mandelbrot_cs.out
+
 .PHONY: cxx
 cxx: src/mandelbrot.cxx ## Run implementation in C++
 	g++ -o mandelbrot_cxx.out $<
