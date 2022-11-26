@@ -60,6 +60,7 @@ for [Mandelbrot set][1].
 * Lua: https://www.lua.org
 * Pascal: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 * PHP: https://www.php.net
+* Python: https://python.org
 
 ## License
 
