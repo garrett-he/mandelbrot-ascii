@@ -57,6 +57,7 @@ for [Mandelbrot set][1].
 * Java: https://www.java.com
 * JavaScript: https://en.wikipedia.org/wiki/JavaScript
 * Pascal: https://en.wikipedia.org/wiki/Pascal_(programming_language)
+* PHP: https://www.php.net
 
 ## License
 

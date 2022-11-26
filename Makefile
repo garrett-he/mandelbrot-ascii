@@ -38,3 +38,7 @@ pascal: src/mandelbrot.pas ## Run implementation in Pascal (FreePascal)
 	fpc -FE`pwd` $<
 	mv mandelbrot mandelbrot_pascal.out
 	time ./mandelbrot_pascal.out
+
+.PHONY: php
+php: src/mandelbrot.php ## Run implementation in PHP
+	time php $<
