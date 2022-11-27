@@ -55,6 +55,7 @@ for [Mandelbrot set][1].
 * C: https://en.wikipedia.org/wiki/C_(programming_language)
 * C#: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 * C++: https://en.wikipedia.org/wiki/C%2B%2B
+* Io: https://iolanguage.org
 * Java: https://www.java.com
 * JavaScript: https://en.wikipedia.org/wiki/JavaScript
 * Lua: https://www.lua.org
