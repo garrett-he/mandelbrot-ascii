@@ -59,6 +59,7 @@ for [Mandelbrot set][1].
 * JavaScript: https://en.wikipedia.org/wiki/JavaScript
 * Lua: https://www.lua.org
 * Pascal: https://en.wikipedia.org/wiki/Pascal_(programming_language)
+* Perl: https://www.perl.org
 * PHP: https://www.php.net
 * Python: https://python.org
 
