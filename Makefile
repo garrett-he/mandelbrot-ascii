@@ -19,3 +19,9 @@ basic: src/mandelbrot.bas ## Run implementation in BASIC (FreeBASIC)
 java: src/Mandelbrot.java ## Run implementation in Java
 	javac -d `pwd` $<
 	time java Mandelbrot
+
+.PHONY: pascal
+pascal: src/mandelbrot.pas ## Run implementation in Pascal (FreePascal)
+	fpc -FE`pwd` $<
+	mv mandelbrot mandelbrot_pascal.out
+	time ./mandelbrot_pascal.out

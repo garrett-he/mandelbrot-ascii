@@ -53,6 +53,7 @@ for [Mandelbrot set][1].
 
 * BASIC: https://en.wikipedia.org/wiki/BASIC
 * Java: https://www.java.com
+* Pascal: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 
 ## License
 
