@@ -19,6 +19,11 @@ basic: src/mandelbrot.bas ## Run implementation in BASIC (FreeBASIC)
 java: src/Mandelbrot.java ## Run implementation in Java
 	javac -d `pwd` $<
 	time java Mandelbrot
+
+.PHONY: js
+js: src/mandelbrot.js ## Run implementation in JavaScript (Node.js)
+	time node $<
+
 .PHONY: c
 c: src/mandelbrot.c ## Run implementation in C
 	cc -o mandelbrot_c.out $<
