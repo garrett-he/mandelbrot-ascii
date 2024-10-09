@@ -52,6 +52,7 @@ for [Mandelbrot set][1].
 ## Support Languages
 
 * BASIC: https://en.wikipedia.org/wiki/BASIC
+* C: https://en.wikipedia.org/wiki/C_(programming_language)
 * Java: https://www.java.com
 * Pascal: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 
