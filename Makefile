@@ -23,6 +23,10 @@ java: src/Mandelbrot.java ## Run implementation in Java
 c: src/mandelbrot.c ## Run implementation in C
 	cc -o mandelbrot_c.out $<
 	time ./mandelbrot_c.out
+.PHONY: cxx
+cxx: src/mandelbrot.cxx ## Run implementation in C++
+	g++ -o mandelbrot_cxx.out $<
+	time ./mandelbrot_cxx.out
 
 .PHONY: pascal
 pascal: src/mandelbrot.pas ## Run implementation in Pascal (FreePascal)
