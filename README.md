@@ -57,6 +57,7 @@ for [Mandelbrot set][1].
 * C++: https://en.wikipedia.org/wiki/C%2B%2B
 * Java: https://www.java.com
 * JavaScript: https://en.wikipedia.org/wiki/JavaScript
+* Lua: https://www.lua.org
 * Pascal: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 * PHP: https://www.php.net
 
