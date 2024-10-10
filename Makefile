@@ -39,6 +39,10 @@ cxx: src/mandelbrot.cxx ## Run implementation in C++
 	g++ -o mandelbrot_cxx.out $<
 	time ./mandelbrot_cxx.out
 
+.PHONY: io
+io: src/mandelbrot.io ## Run implementation in Io
+	@time io $<
+
 .PHONY: lua
 lua: src/mandelbrot.lua ## Run implementation in Lua
 	time lua $<
@@ -56,7 +60,6 @@ php: src/mandelbrot.php ## Run implementation in PHP
 .PHONY: perl
 perl: src/mandelbrot.pl ## Run implementation in Perl
 	@time perl $<
-
 
 .PHONY: python
 python: src/mandelbrot.py ## Run implementation in Python
