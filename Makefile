@@ -52,3 +52,7 @@ pascal: src/mandelbrot.pas ## Run implementation in Pascal (FreePascal)
 .PHONY: php
 php: src/mandelbrot.php ## Run implementation in PHP
 	time php $<
+
+.PHONY: python
+python: src/mandelbrot.py ## Run implementation in Python
+	time python $<
