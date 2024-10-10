@@ -61,3 +61,7 @@ perl: src/mandelbrot.pl ## Run implementation in Perl
 .PHONY: python
 python: src/mandelbrot.py ## Run implementation in Python
 	time python $<
+
+.PHONY: ruby
+ruby: src/mandelbrot.rb ## Run implementation in Ruby
+	time ruby $<

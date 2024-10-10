@@ -62,6 +62,7 @@ for [Mandelbrot set][1].
 * Perl: https://www.perl.org
 * PHP: https://www.php.net
 * Python: https://python.org
+* Ruby: https://www.ruby-lang.org
 
 ## License
 
