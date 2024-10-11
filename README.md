@@ -64,6 +64,7 @@ for [Mandelbrot set][1].
 * PHP: https://www.php.net
 * Python: https://python.org
 * Ruby: https://www.ruby-lang.org
+* Rust: https://www.rust-lang.org
 
 ## License
 

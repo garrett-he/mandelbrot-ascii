@@ -41,7 +41,7 @@ cxx: src/mandelbrot.cxx ## Run implementation in C++
 
 .PHONY: io
 io: src/mandelbrot.io ## Run implementation in Io
-	@time io $<
+	time io $<
 
 .PHONY: lua
 lua: src/mandelbrot.lua ## Run implementation in Lua
@@ -59,7 +59,7 @@ php: src/mandelbrot.php ## Run implementation in PHP
 
 .PHONY: perl
 perl: src/mandelbrot.pl ## Run implementation in Perl
-	@time perl $<
+	time perl $<
 
 .PHONY: python
 python: src/mandelbrot.py ## Run implementation in Python
@@ -68,3 +68,8 @@ python: src/mandelbrot.py ## Run implementation in Python
 .PHONY: ruby
 ruby: src/mandelbrot.rb ## Run implementation in Ruby
 	time ruby $<
+
+.PHONY: rust
+rust: src/mandelbrot.rs ## Run implementation in Rust
+	rustc $< -o mandelbrot_rust.out
+	time ./mandelbrot_rust.out
