@@ -39,6 +39,11 @@ cxx: src/mandelbrot.cxx ## Run implementation in C++
 	g++ -o mandelbrot_cxx.out $<
 	time ./mandelbrot_cxx.out
 
+.PHONY: go
+go: src/mandelbrot.go ## Run implementation in Go
+	go build -o mandelbrot_go.out $<
+	time ./mandelbrot_go.out
+
 .PHONY: io
 io: src/mandelbrot.io ## Run implementation in Io
 	time io $<
